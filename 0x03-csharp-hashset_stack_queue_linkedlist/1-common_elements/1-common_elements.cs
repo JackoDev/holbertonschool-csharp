@@ -14,6 +14,7 @@ class List
             else
                 continue;
         }
+        newList.Sort();
         return newList;
     }
 }
