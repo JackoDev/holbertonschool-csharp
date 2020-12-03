@@ -9,12 +9,14 @@ class Array
             Console.WriteLine("Size cannot be negative");
             return null;
         }
+
+        int[] array1 = new int[size];
+
         if (size == 0)
         {
             Console.WriteLine();
+            return array1;
         }
-        
-        int[] array1 = new int[size];
 
         for (int i = 0; i < size - 1; i++)
         {
