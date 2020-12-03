@@ -18,12 +18,13 @@ class Array
             return array1;
         }
 
-        for (int i = 0; i < size - 1; i++)
+        for (int i = 0; i < size; i++)
         {
-            if ( i + 1 == size)
-                Console.WriteLine(size - 1);
-            else
+            array1[i] = i;
+            if ( i < size - 1)
                 Console.Write($"{i} ");
+            else
+                Console.WriteLine(size - 1);
         }
         return array1;
     }
