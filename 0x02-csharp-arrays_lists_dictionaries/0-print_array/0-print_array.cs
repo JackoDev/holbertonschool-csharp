@@ -10,14 +10,19 @@ class Array
             return null;
         }
         if (size == 0)
+        {
             Console.WriteLine();
+        }
         
         int[] array1 = new int[size];
+
         for (int i = 0; i < size - 1; i++)
         {
-            Console.Write($"{i} ");
+            if ( i + 1 == size)
+                Console.WriteLine(size - 1);
+            else
+                Console.Write($"{i} ");
         }
-        Console.WriteLine(size - 1);
         return array1;
     }
 }
