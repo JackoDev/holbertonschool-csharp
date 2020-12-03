@@ -5,7 +5,12 @@ class Dictionary
 {
     public static Dictionary<string, string> AddKeyValue(Dictionary<string, string> myDict, string key, string value)
     {
-        myDict.Add(key, value);
+        if (!myDict.ContainsKey(key)){
+            myDict.Add(key, value);
+        }
+        else {
+            myDict[key] = value;
+        }
         return myDict;
     }
 }
