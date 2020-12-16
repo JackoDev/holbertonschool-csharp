@@ -5,8 +5,21 @@ namespace Enemies
     /// <summary> The representation of an empty class </summary>
     class Zombie
     {
-        /// <summary> Represents the zombie's health </summary>
         int health;
+        string name = "(No name)";
+
+        /// <summary> Constructor's methods for name of Zombie</summary>
+        public string Name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
 
         /// <summary> Initializes a new instance of the <see cref="Zombie"/> class</summary>
         public Zombie()
