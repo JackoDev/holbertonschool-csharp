@@ -1,0 +1,11 @@
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.deps.json
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.runtimeconfig.json
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.runtimeconfig.dev.json
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.dll
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/bin/Debug/netcoreapp2.1/13-linkedlist_delete.pdb
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.csprojAssemblyReference.cache
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.csproj.CoreCompileInputs.cache
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.AssemblyInfoInputs.cache
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.AssemblyInfo.cs
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.dll
+/mnt/c/Users/javic/Documents/holberton/holbertonschool-csharp/0x03-csharp-hashset_stack_queue_linkedlist/13-linkedlist_delete/obj/Debug/netcoreapp2.1/13-linkedlist_delete.pdb
