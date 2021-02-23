@@ -8,7 +8,7 @@ namespace MyMath.Tests
         [Test]
         public void Divide_whenNumEqualsZero_ReturnsNull()
         {
-            int[,] firstMatrix = new int[3, 6] {{8, 32, 6}, {48, 68, 17}};
+            int[,] firstMatrix = new int[2, 3] {{4, 34, 2}, {23, 56, 34}};
 
             int[,] newMatrix = Matrix.Divide(firstMatrix, 0);
             Assert.AreEqual(null, newMatrix);
