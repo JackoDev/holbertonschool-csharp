@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>7-shape</name>
+    </assembly>
+    <members>
+        <member name="T:Shape">
+            <summary> A shape class </summary>
+        </member>
+        <member name="M:Shape.Area">
+            <summary> Not implemented method Area()</summary>
+        </member>
+        <member name="T:Rectangle">
+            <summary> A Rectangle class that inherits from Shape </summary>
+        </member>
+        <member name="P:Rectangle.Width">
+            <summary> Gets and sets Rectangle's width </summary>
+        </member>
+        <member name="P:Rectangle.Height">
+            <summary> Gets ans sets Rectangle's heigth </summary>
+        </member>
+        <member name="M:Rectangle.Area">
+            <summary> Returns area Rectangle's Area </summary>
+        </member>
+        <member name="M:Rectangle.ToString">
+            <summary> Override ToString() </summary>
+        </member>
+    </members>
+</doc>
