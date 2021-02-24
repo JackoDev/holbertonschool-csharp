@@ -1,33 +1,24 @@
-﻿using NUnit.Framework;
+﻿using System;
 
-namespace Text.Tests
+namespace Text
 {
-    [TestFixture]
-    public class Tests
+    /// <summary> Represents a class Str</summary>
+    public class Str
     {
-
-        [Test]
-        public void CamelCase_WhenStrinEmpty_returnsZero()
+        /// <summary> methos that returns the number of words un a camelcase string</summary>
+        public static int CamelCase(string s)
         {
-            string s = "";
-            var result = Str.CamelCase(s);
-            Assert.AreEqual(0, result);
-        }
-
-        [Test]
-        public void CamelCase_WhenStrinNull_returnsZero()
-        {
-            string s = null;
-            var result = Str.CamelCase(s);
-            Assert.AreEqual(0, result);
-        }
-
-        [Test]
-        public void CamelCase_WhenStrinFull_returnsNumberOfWords()
-        {
-            string s = "beWhereYouWannaBe";
-            var result = Str.CamelCase(s);
-            Assert.AreEqual(5, result);
+            if (s == "" || s == null)
+                return 0;
+            int count = 0;
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (Char.IsUpper(s[i]))
+                {
+                    count++;
+                }
+            }
+            return count + 1;
         }
     }
 }
