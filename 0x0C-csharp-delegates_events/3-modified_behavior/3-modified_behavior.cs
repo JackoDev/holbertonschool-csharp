@@ -2,10 +2,25 @@ using System;
 /// <summary> Delegate to track hp of player </summary>
 /// <param name="amount">Amount of hp affected</param>
 public delegate void CalculateHealth(float amount);
-
+/// <summary> Delegate to modify base value of damage  </summary>
+/// <param name="baseValue"></param>
+/// <param name="modifier"></param>
+/// <returns></returns>
+public delegate float CalculateModifier(float baseValue, Modifier modifier);
+/// <summary> enum containing values for modifying base values </summary>
+public enum Modifier
+{
+    /// <summary>  attack is half of base value  </summary>
+    Weak,
+    /// <summary> attack is base value </summary>
+    Base,
+    /// <summary> attack is 1.5x base value </summary>
+    Strong
+}
 /// <summary> Cretes public class called Player </summary>
 class Player
 {
+    // public delegate void CalculateHealth(float amount);
     private string name;
     private float maxHp;
     private float hp;
@@ -27,6 +42,22 @@ class Player
             this.maxHp = 100f;
         }
         this.hp = this.maxHp;
+    }
+    /// <summary> Changes base modifier </summary>
+    /// <param name="baseValue">New base value</param>
+    /// <param name="modifier">Enum ref for attack strength</param>
+    /// <returns>Modified value</returns>
+    public float ApplyModifier(float baseValue, Modifier modifier)
+    {
+        if (modifier == Modifier.Weak)
+        {
+            return baseValue / 2;
+        }
+        if (modifier == Modifier.Strong)
+        {
+            return baseValue * 1.5f;
+        }
+        return baseValue;
     }
     /// <summary> Deducts health points of player </summary>
     /// <param name="damage">Amount to deduct</param>
