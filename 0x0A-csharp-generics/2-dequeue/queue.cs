@@ -6,7 +6,7 @@ class Queue<T>
   ///<summary> Set nodes for queue </summary>
 	public class Node
 	{
-		private T value = default(T);
+		public T value = default(T);
 		public Node next = null;
 
 		public Node(T input)
