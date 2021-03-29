@@ -3,11 +3,11 @@
 ///<summary> abstract Base class </summary>
 abstract class Base
 {
-  public string name = "";
+	public string name = "";
 
 	public override string ToString()
 	{
-		return (this.name + " is a " + this.GetType().ToString());
+		return String.Format("{0} is a {1}", name, this.GetType().Name);
 	}
 }
 
